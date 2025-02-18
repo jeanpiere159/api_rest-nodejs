@@ -21,6 +21,7 @@ cd tu-repositorio
 2.Instalar dependencias
 
 npm install
+
 npm install body-parser dotenv express mongoose nodemon
 
 Para instalar todas las dependencias necesarias para el proyecto, ejecuta el siguiente comando en la terminal dentro de la carpeta del proyecto:
@@ -53,6 +54,8 @@ Endpoints disponibles
 GET /books
 
 curl -X GET http://localhost:3000/books
+
+
  2. Crear un nuevo libro
 POST /books
 
@@ -63,6 +66,7 @@ POST /books
     "genre": "Fantasía"
 }
 .Notas importantes
+
 Si no ves los datos en MongoDB Compass, presiona "Refresh".
 Usa Postman o cURL para probar los endpoints.
 Autor JeanpiereDEVS🚀
